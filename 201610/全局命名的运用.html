@@ -1,0 +1,32 @@
+<!doctype html>
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script>
+		window.OT2 = {}; // 全局命名空间
+        OT2.AboveIE9 = true; // 默认非iE或IE9及以上
+        OT2.ns = function(name) {
+            var container = OT2;
+            var parts = name.split('.');
+            var current = '';
+            if (parts[0] == 'OT2') parts.shift();
+            while (current = parts.shift()) {
+                if (!container[current]) container[current] = {};
+                container = container[current];
+            }
+            return container;
+        };
+        /*
+		思路：
+		1. 在每次模块之前建立一个全局变量；
+		2. 在全局变量下定义属性名称；
+		3. 在全局变量下定义方法；
+        */
+	</script>
+</head>
+<body>
+	
+</body>
+</html>

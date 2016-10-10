@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script>
+		(function(doc, win) {
+            // 基于 window.screen.width 实现自适应布局
+            var screenWidth = 0,
+                size = 'XL',
+                root = doc.documentElement;
+            if (window.screen && screen.width) {
+                screenWidth = screen.width;
+                if (screenWidth >= 1200) size = 'XL'; // 大屏 - 1200px         
+                else if (screenWidth < 1200) size = 'XS'; // 小屏 - 1000px
+            }
+            root.className += " " + size; // 标记CSS
+            win.SIZE = size; // 标记JS        
+        })(document, window);
+        /*
+		思路：
+		1. 利用屏幕的宽度来确定是采取哪一种样式
+		2. 不同的屏幕，js也有一部分不一样
+        */
+	</script>
+</head>
+<body>
+</body>
+</html>
