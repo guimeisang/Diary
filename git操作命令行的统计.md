@@ -46,7 +46,7 @@ Switched to branch 'master'
 
 ![image](https://github.com/guimeisang/Diary/blob/master/img/04.png)
 
-- $ git merge dev 现在，我们把dev分支的工作成果合并到master分支（注意当前的分支一定master分支，需要合并的分支）
+- $ git checkout master $ git merge dev 现在，我们把dev分支的工作成果合并到master分支（注意当前的分支一定master分支，需要合并的分支）
 
 将master合并提前到dev上去
 
