@@ -34,11 +34,13 @@ Switched to branch 'master'
 
 切换回master分支后，再查看一个readme.txt文件，刚才添加的内容不见了！因为那个提交是在dev分支上，而master分支此刻的提交点并没有变：
 
-![image](这是是合并前header和dev，master指针的位置)
+![image](https://github.com/guimeisang/Diary/blob/master/img/01.png)
+
+![image](https://github.com/guimeisang/Diary/blob/master/img/02.png)
 
 - $ git merge dev 现在，我们把dev分支的工作成果合并到master分支（注意当前的分支一定master分支，需要合并的分支）
 
-![image](这是是合并前header和dev，master指针的位置)
+![image](https://github.com/guimeisang/Diary/blob/master/img/03.png)
 
 - $ git merge [branch] 用于合并指定分支到当前分支，这个合并相当于快进模式，直接把`master`和`dev`的当前提交，所以合并非常快。
 - $ git branch -d dev 合并之后就可以放心的删除dev分支了。
