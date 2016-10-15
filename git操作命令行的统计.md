@@ -34,12 +34,18 @@ Switched to branch 'master'
 
 切换回master分支后，再查看一个readme.txt文件，刚才添加的内容不见了！因为那个提交是在dev分支上，而master分支此刻的提交点并没有变：
 
+初始化状态
 ![image](https://github.com/guimeisang/Diary/blob/master/img/01.png)
 
+创建dev分支并且header指针指向当前dev分支
 ![image](https://github.com/guimeisang/Diary/blob/master/img/02.png)
+
+当前dev分支继续commit和push
+![image](https://github.com/guimeisang/Diary/blob/master/img/04.png)
 
 - $ git merge dev 现在，我们把dev分支的工作成果合并到master分支（注意当前的分支一定master分支，需要合并的分支）
 
+将master合并提前到dev上去
 ![image](https://github.com/guimeisang/Diary/blob/master/img/03.png)
 
 - $ git merge [branch] 用于合并指定分支到当前分支，这个合并相当于快进模式，直接把`master`和`dev`的当前提交，所以合并非常快。
