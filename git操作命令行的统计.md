@@ -54,3 +54,4 @@ Switched to branch 'master'
 
 - $ git merge [branch] 用于合并指定分支到当前分支，这个合并相当于快进模式，直接把`master`和`dev`的当前提交，所以合并非常快。
 - $ git branch -d dev 合并之后就可以放心的删除dev分支了。
+- $ git remote set-url origin [路径]：可以更改远程仓库的路径。

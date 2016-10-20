@@ -36,3 +36,4 @@
       * 在命令行窗口中键即粘贴，可用**Shift Insert**代替
       * **Ctrl PageUp** : 屏幕输出向上翻页
       * **Ctrl PageDown** : 屏幕输出向下翻页
+      * **start .**:打开当前的文件夹
