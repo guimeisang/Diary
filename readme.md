@@ -20,3 +20,4 @@
 	- [提示插件](https://github.com/guimeisang/Diary/blob/master/201611/%E6%8F%90%E7%A4%BA%E6%8F%92%E4%BB%B6.md)
 	- [滚动插件](https://github.com/guimeisang/Diary/blob/master/201611/%E6%8F%90%E7%A4%BA%E6%8F%92%E4%BB%B6.md)
 	- [总结该项目用angular写时踩得坑]()
+	- [前端部署]()
