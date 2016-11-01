@@ -20,4 +20,4 @@
 	- [提示插件](https://github.com/guimeisang/Diary/blob/master/201611/%E6%8F%90%E7%A4%BA%E6%8F%92%E4%BB%B6.md)
 	- [滚动插件](https://github.com/guimeisang/Diary/blob/master/201611/%E6%8F%90%E7%A4%BA%E6%8F%92%E4%BB%B6.md)
 	- [总结该项目用angular写时踩得坑](https://github.com/guimeisang/Diary/blob/master/201611/%E7%94%A8angular%E8%B8%A9%E5%9D%91.md)
-	- [前端部署](https://github.com/guimeisang/Diary/blob/master/201611/%E5%89%8D%E7%AB%AF%E9%83%A8%E7%BD%B2%E8%B8%A9%E5%9D%91.md)https://github.com/guimeisang/Diary/blob/master/201611/%E7%94%A8angular%E8%B8%A9%E5%9D%91.md
+	- [前端部署](https://github.com/guimeisang/Diary/blob/master/201611/%E5%89%8D%E7%AB%AF%E9%83%A8%E7%BD%B2%E8%B8%A9%E5%9D%91.md)https://github.com/guimeisang/Diary/blob/master/201611/%E7%94%A8angular%E8%B8%A9%E5%9D%91.md)
