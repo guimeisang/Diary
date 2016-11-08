@@ -6,21 +6,20 @@ html, body, h1, h2, h3, h4, h5, h6, div, ul, ol, li, dl, dt, dd, iframe, textare
 body, ul, ol, li, dl, dd, p, h1, h2, h3, h4, h5, h6, form, fieldset, .pr, .pc, em, del { font-style: normal; font-size: 100%; }
 ul, ol, dl { list-style: none; }
 .fr{float:right;}
+.fl{float:left;}
 .p10{padding:10px;}
+.pt-5{padding-top:5px;}
+.pb-5{padding-bottom:5px;}
+.pl{padding-left:5px;}
+.pr{padding-right:5px;}
+/*shcoolDome*/
+.schoolDemo{margin:30px 30px 0px 100px;}
+.school-tab{position:relative;display: flex;width: 400px;list-style: none;flex-flow: row wrap;justify-content: center;}
+.school-tab li{flex:1;border:1px solid #56b4f8;margin:2px 4px 2px 0px;padding:5px 10px;}
+.current{background:#56b4f8;color:#fff;}
+.school-content{width:374px;min-height:280px;padding:10px;overflow-y:auto;border:1px solid #56b4f8;}
+.school-content label{float:left;padding:5px 10px;border:1px solid #56b4f8;margin:5px 15px;}
 
 
 
-.school-content{margin:30px 30px 0px 100px;}
-.school-tab{
-    position: relative;
-      display: flex;
-      width: 400px;
-      margin: 0 auto;
-      list-style: none;
-      flex-flow: row wrap;
-      justify-content: center;
-}
-.school-tab li{
-    flex:1;
-}
 
