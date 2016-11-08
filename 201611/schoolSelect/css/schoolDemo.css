@@ -1,0 +1,26 @@
+
+* { -ms-word-wrap: break-word; word-wrap: break-word; }
+html { -webkit-text-size-adjust: none; text-size-adjust: none; }
+html, body {height:100%;width:100%;padding:300px; }
+html, body, h1, h2, h3, h4, h5, h6, div, ul, ol, li, dl, dt, dd, iframe, textarea, input, button, p, strong, b, i, a, span, del, pre, table, tr, th, td, form, fieldset, .pr, .pc { margin: 0; padding: 0; word-wrap: break-word; font-family: verdana,Microsoft YaHei,Tahoma,sans-serif; *font-family: Microsoft YaHei,verdana,Tahoma,sans-serif; }
+body, ul, ol, li, dl, dd, p, h1, h2, h3, h4, h5, h6, form, fieldset, .pr, .pc, em, del { font-style: normal; font-size: 100%; }
+ul, ol, dl { list-style: none; }
+.fr{float:right;}
+.p10{padding:10px;}
+
+
+
+.school-content{margin:30px 30px 0px 100px;}
+.school-tab{
+    position: relative;
+      display: flex;
+      width: 400px;
+      margin: 0 auto;
+      list-style: none;
+      flex-flow: row wrap;
+      justify-content: center;
+}
+.school-tab li{
+    flex:1;
+}
+

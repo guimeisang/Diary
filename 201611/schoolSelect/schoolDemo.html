@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="repoApp">
+<head >
+    <meta charset="UTF-8">
+    <title>选择学校</title>
+    <link rel="stylesheet" href="css/schoolDemo.css">
+</head>
+<body ng-controller="schoolDomoController">
+    <div class="school-content">
+        <!--输入框-->
+        <input type="text" id="school-input" ng-model="schoolName" ng-focus="schoolDemoController.showBox()">
+        
+        <!--地区和学校的下拉框-->
+        <div class="table tabs-style" ng-show="school.dropBox">
+            <!--tab页面-->
+            <ul class="school-tab">
+                <li ng-class="{'current':tab.isSet(1)}" ng-click="tab.setCurrent(1)">省份</li>
+                <li ng-class="{'current':tab.isSet(2)}" ng-click="tab.setCurrent(2)">市</li>
+                <li ng-class="{'current':tab.isSet(3)}" ng-click="tab.setCurrent(3)">区/县</li>
+                <li ng-class="{'current':tab.isSet(4)}" ng-click="tab.setCurrent(4)">学校</li>
+            </ul>
+
+            <!--内容框-->
+            <ul class="school-content">
+                <li id="section-1"  ng-show="tab.isSet(1)">省份。。。</li>
+                <li id="section-2"  ng-show="tab.isSet(2)">市。。。</li>
+                <li id="section-3"  ng-show="tab.isSet(3)">区、县。。。</li>
+                <li id="section-4"  ng-show="tab.isSet(4)">学校。。。</li>
+            </ul>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="js/angular.js"></script>
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/schoolDemo.js"></script>
+</html>
