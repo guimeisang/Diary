@@ -5,3 +5,5 @@
 - 一种不错的布局方法，display: table-cell;vertical-align: middle;text-align:right;text-align:left;  
 	- 请查看张鑫旭的插件 http://www.zhangxinxu.com/wordpress/2010/10/%E6%88%91%E6%89%80%E7%9F%A5%E9%81%93%E7%9A%84%E5%87%A0%E7%A7%8Ddisplaytable-cell%E7%9A%84%E5%BA%94%E7%94%A8/
 - 10月份完成 js高级函数进阶。主要是阅读《高级程序设计》
+
+**注意休息，保证身体和心态，技术的完美结合**
