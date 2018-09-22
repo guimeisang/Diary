@@ -1,8 +1,8 @@
 # 目录
  
-## 编程技能
+## 1 编程技能
 
-### 前端技术
+### 1.1 前端技术
 
 - [201610](https://github.com/guimeisang/Diary/tree/master/201610)
 	- [01](https://github.com/guimeisang/Diary/blob/master/201610/01.md): 近期月计划安排
@@ -26,13 +26,13 @@
 	- [总结该项目用angular写时踩得坑](https://github.com/guimeisang/Diary/blob/master/201611/%E7%94%A8angular%E8%B8%A9%E5%9D%91.md)
 	- [前端部署](https://github.com/guimeisang/Diary/blob/master/201611/%E5%89%8D%E7%AB%AF%E9%83%A8%E7%BD%B2%E8%B8%A9%E5%9D%91.md)
 
-### python学习
+### 1.2 python学习
 
-### go学习
+### 1.3 go学习
 
-### c++学习
+### 1.4 c++学习
 
-## 软技能
+## 2 软技能
 
-## 思考
+## 3 思考
 
