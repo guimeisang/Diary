@@ -1,38 +1,95 @@
-# 目录
- 
-## 1 编程技能
-
-### 1.1 前端技术
-
-- [201610](https://github.com/guimeisang/Diary/tree/master/201610)
-	- [01](https://github.com/guimeisang/Diary/blob/master/201610/01.md): 近期月计划安排
-	- [02](https://github.com/guimeisang/Diary/blob/master/201610/02.md): javascript程序设计·函数
-	- [20161013](https://github.com/guimeisang/Diary/blob/master/201610/20161013.md): git 里面的回滚版本和报"Please make sure you have the correct access rights and the repository exists."的解决办法
-	- [20161014](https://github.com/guimeisang/Diary/blob/master/201610/20161014.md) :git冲突的原因和解决办法
-	- [上传插件的使用](https://github.com/guimeisang/Diary/blob/master/201610/20161020.md)
-	- [js高级函数进阶一](https://github.com/guimeisang/Diary/blob/master/201610/js%E9%AB%98%E7%BA%A7%E5%87%BD%E6%95%B0%E8%BF%9B%E9%98%B6%E4%B8%80)
-	- [js高级函数进阶二](https://github.com/guimeisang/Diary/blob/master/201610/js%E9%AB%98%E7%BA%A7%E5%87%BD%E6%95%B0%E8%BF%9B%E9%98%B6%E4%B8%80)
+# 目的
+> 成长规划代表你想成什么样的人，只有你自己思考了，实践了；在团队中才能引导其他人也去思考如何做成长规划，如何将成长规划落地；  
+> 曾经定位过的问题，可以在这里记录；伴随一生；  
+> 那些有兴趣，或者看到有意思的想法也可以在这里记录下  
+> 维护的状态：优先级；重要性；感兴趣程度；
 
 
-- [201611](https://github.com/guimeisang/Diary/tree/master/201611)
-	- [上传插件](https://github.com/guimeisang/Diary/blob/master/201611/%E4%B8%8A%E4%BC%A0.md)
-	- [公式编辑器](https://github.com/guimeisang/Diary/blob/master/201611/%E5%85%AC%E5%BC%8F%E7%BC%96%E8%BE%91%E5%99%A8.md)
-	- [图片预览和轮播结合](https://github.com/guimeisang/Diary/blob/master/201611/%E5%9B%BE%E7%89%87%E9%A2%84%E8%A7%88%E5%92%8C%E5%9B%BE%E7%89%87%E8%BD%AE%E6%92%AD%E7%9A%84%E6%8F%92%E4%BB%B6.md)
-	- [写插件形式共享功能代码](https://github.com/guimeisang/Diary/blob/master/201611/%E5%AD%A6%E4%BC%9A%E5%86%99%E6%8F%92%E4%BB%B6%E7%9A%84%E5%BD%A2%E5%BC%8F.md)
-	- [富文本编辑器](https://github.com/guimeisang/Diary/blob/master/201611/%E5%AF%8C%E6%96%87%E6%9C%AC%E7%BC%96%E8%BE%91%E5%99%A8.md)
-	- [弹窗插件](https://github.com/guimeisang/Diary/blob/master/201611/%E5%BC%B9%E7%AA%97%E6%8F%92%E4%BB%B6.md)
-	- [提示插件](https://github.com/guimeisang/Diary/blob/master/201611/%E6%8F%90%E7%A4%BA%E6%8F%92%E4%BB%B6.md)
-	- [滚动插件](https://github.com/guimeisang/Diary/blob/master/201611/%E6%8F%90%E7%A4%BA%E6%8F%92%E4%BB%B6.md)
-	- [总结该项目用angular写时踩得坑](https://github.com/guimeisang/Diary/blob/master/201611/%E7%94%A8angular%E8%B8%A9%E5%9D%91.md)
-	- [前端部署](https://github.com/guimeisang/Diary/blob/master/201611/%E5%89%8D%E7%AB%AF%E9%83%A8%E7%BD%B2%E8%B8%A9%E5%9D%91.md)
+## 想提升什么能力？
 
-### 1.2 python学习
 
-### 1.3 go学习
+### 软件架构能力
 
-### 1.4 c++学习
+### 定位问题能力
 
-## 2 软技能
+### 知识广度
 
-## 3 思考
+### 学习力
+
+
+
+## 想从事什么方向？
+
+
+### 全栈
+
+### 业务分析能力
+
+
+
+
+# 内容【根据规划实时的更新目录】
+
+
+
+## 1 code(编程)
+
+
+### 1.1 front
+
+#### electron
+
+### 1.2 python
+
+### 1.3 go
+
+### 1.4 c++
+
+### 1.5 linux
+
+### 1.6 leetcode
+
+
+
+## 2 业务模块
+
+
+### 2.1 笔迹
+
+### 2.2 开发工具
+
+### 2.3 富文本工具类型
+
+### 2.4 webrtc
+
+### 2.5 想做的
+
+
+## 3 踩过的坑
+
+
+## 4 架构
+
+
+## 5 PM
+
+
+## 6 软技能
+
+
+# TODO
+> 维护“未开始”，“开发中”，“开发完成” 三个状态
+
+## 未开始
+- [] 实践笔迹的不同中采集点算法，并且输出类似于simplify的库；
+- [] 完成虚拟dom用canvas渲染；
+- [] 完成chromeos中开发工具预研；
+- [] 做一个类似于office三套的SDK；
+- [] 开发一个egg的npm包；
+
+## 开发中
+
+## 开发完成
+
+
 
