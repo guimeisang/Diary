@@ -40,12 +40,12 @@
 ### 1.4 c++
 
 ### 1.5 linux
-- (Linux 命令行编辑快捷键)[https://github.com/guimeisang/Diary/blob/master/blog/code/linux/Linux%20%E5%91%BD%E4%BB%A4%E8%A1%8C%E7%BC%96%E8%BE%91%E5%BF%AB%E6%8D%B7%E9%94%AE.md]
+- [Linux 命令行编辑快捷键](https://github.com/guimeisang/Diary/blob/master/blog/code/linux/Linux%20%E5%91%BD%E4%BB%A4%E8%A1%8C%E7%BC%96%E8%BE%91%E5%BF%AB%E6%8D%B7%E9%94%AE.md)
 
 ### 1.6 leetcode
 
 ### 1.7 算法
-- (二分法)[https://github.com/guimeisang/Diary/blob/master/blog/code/%E7%AE%97%E6%B3%95/%E4%BA%8C%E5%88%86%E6%B3%95.md]
+- [二分法](https://github.com/guimeisang/Diary/blob/master/blog/code/%E7%AE%97%E6%B3%95/%E4%BA%8C%E5%88%86%E6%B3%95.md)
 
 
 ## 2 业务模块
@@ -68,8 +68,8 @@
 ## 4 架构
 
 ### 架构思想
-- (【架构思想】第一篇)[https://github.com/guimeisang/Diary/issues/44]
-- (【架构思想】第二篇)[https://github.com/guimeisang/Diary/issues/45]
+- [【架构思想】第一篇](https://github.com/guimeisang/Diary/issues/44)
+- [【架构思想】第二篇](https://github.com/guimeisang/Diary/issues/45)
 
 ## 5 PM
 
