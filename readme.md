@@ -47,6 +47,9 @@
 ### 1.7 算法
 - [二分法](https://github.com/guimeisang/Diary/blob/master/blog/code/%E7%AE%97%E6%B3%95/%E4%BA%8C%E5%88%86%E6%B3%95.md)
 
+### nodejs
+- 在egg中如何配置跨域白名单【已完成】
+
 
 ## 2 业务模块
 
