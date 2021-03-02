@@ -1,0 +1,15 @@
+{
+  "name": "schedule",
+  "version": "1.0.0",
+  "description": "最近有一个截图服务，但是因为任务有可能是批量的生成图片，但是并发量很大的时候，可能会导致服务扛不住 所以做一个任务调度器很有必要",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.7.2"
+  }
+}

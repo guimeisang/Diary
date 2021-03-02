@@ -10,6 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "koa": "^2.13.1"
+    "axios": "^0.21.1",
+    "koa": "^2.13.1",
+    "koa-router": "^10.0.0",
+    "request": "^2.88.2"
   }
 }
