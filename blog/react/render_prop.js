@@ -1,3 +1,5 @@
+// 实现一个组件，解决跟踪鼠标位置信息的问题
+
 import React from 'react'
 import ReactDOM from 'react-dom'
 import PropTypes from 'prop-types'
