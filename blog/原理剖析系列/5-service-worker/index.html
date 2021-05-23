@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script>
+    function register() {
+      navigator.serviceWorker
+      .register('serviceworker.js')
+      .then(function(serviceWorker) {})
+    }
+  </script>
+</head>
+<body onload="register()"> 
+  <h1>serviceWork Test!</h1>
+  <img src="snowTroopers.jpg" alt="">
+</body>
+</html>
