@@ -54,7 +54,38 @@ lib.doSomething = () => {}
 
 #### 函数知识点梳理
 
+- 剩余参数
+
+ts语法中剩余参数定义成数组
+
+```ts
+function add7(x: number, ...rest: number[]) {
+  return x + rest.reduce((pre, cur) => pre + cur)
+}
+```
+
+- 重载
+
+```ts
+function add8(...rest: number[]): number;
+function add8(...rest: string[]): string;
+function add8(...rest: any[]): any {
+  let first = rest[0]
+  if(typeof first === 'string') {
+    return rest.join('')
+  }else {
+    return rest.reduce((pre, cur) => pre + cur)
+  }
+}
+```
+ts 编译器会去先匹配number类型，然后在匹配下面的
+
+
 #### 10 类（1）
+
+ts的类，继承了es6类，并且有另外一个特效和方法
+
+
 
 #### 11 类（2）
 
