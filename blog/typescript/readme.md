@@ -223,4 +223,29 @@ type NotNull<T> = Diff<T, undefined | null> // 有没有觉得有点像高阶函
 type T7 = ReturnType<() => string>
 ```
 
+### 工程篇
+
+#### ES6与CommonJS的模块系统
+
+#### 使用命名空间
+
+#### 理解声明合并
+
+#### 如何编写声明文件
+
+#### 配置tsconfig.json1：文件选项
+
+#### 配置tsconfig.json2：编译选项
+
+#### 配置tsconfig.json3：工程引用
+
+#### 编译工具：从ts-loader到Babel
+
+#### 代码检查工具：从TSLint到ESLint
+
+#### 使用Jest进行单元测试
+
+
+
+
  
