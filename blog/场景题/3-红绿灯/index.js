@@ -11,8 +11,8 @@ const invokeLight = (color, timestamp) => {
 }
 
 const temp = [
-  new LightParams('红', 3)
-  new LightParams('绿', 2)
+  new LightParams('红', 3),
+  new LightParams('绿', 2),
   new LightParams('黄', 1)
 ]
 
