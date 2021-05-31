@@ -14,5 +14,4 @@ class Husky extends Dog {
     super(name)
     this.pro()
   }
-
 }

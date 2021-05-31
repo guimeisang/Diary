@@ -82,20 +82,97 @@ ts 编译器会去先匹配number类型，然后在匹配下面的
 
 
 #### 10 类（1）
-
 ts的类，继承了es6类，并且有另外一个特效和方法
 
 #### 11 类（2）
+```ts
+class Dog {
+  constructor(name: string) {
+    this.name = name
+  }
+  public name: string // 如果constructor中已经使用public 定义了属性，其实就没必要声明类的属性了
+  run() {}
+  private pri() {}
+  protected pro() {}
+  static food: string = 'foo' // 只能使用类名去访问属性，不能通过示例去访问，当然子类也是可以访问的
+}
+
+class Husky extends Dog {
+  constructor(name: string, public color: string) {
+    super(name)
+    this.pro()
+  }
+}
+```
+#### 11 类（2）抽象类
+
+- 抽象类只能被继承，不能被实例化
+
+```ts
+abstract class Animal {
+  eat() {}
+  abstract sleep() {}
+}
+
+class Dog extends Animal {
+  sleep() {
+    
+  }
+}
+```
+
+- 多态
+
+```ts
+
+class Cat extends Animal {
+  sleep() {
+
+  }
+}
+
+```
+
+可以看到ts将es6中的类缺失的功能补全了
 
 #### 12 类与接口的关系
 
+- 都可以各自继承
+- 可转换
+
 #### 13 泛型（1）：泛型函数与泛型接口
+
 
 #### 14 泛型（2）：泛型类与泛型约束
 
+- 泛型约束
+
+```ts
+interface Length {
+  length: number
+}
+
+function log<T extends Length>(value: T): T {
+  console.log(value, value.length)
+  return value
+}
+```
 #### 15 类型检查机制（1）：类型推断
 
+- 由值推断变量
+- 类型断言：你比ts更了解代码类型，改造旧代码的时候很有用，但是慎用
+
 #### 16 类型检查机制（2）：类型兼容性
+
+> 为了语言的灵活性，才有这种类型兼容性
+
+x 兼容 y : x (目标类型) = y (源类型)
+
+口诀：
+结构之间兼容：成员少的兼容成员多的
+函数之间兼容：参数多的兼容参数少的
+
+基础类型，枚举，类，接口，泛型自己看着办，差不多相等才能兼容
 
 #### 17 类型检查机制（3）：类型保护
 
