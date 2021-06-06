@@ -1,0 +1,25 @@
+{
+  "name": "Diary",
+  "version": "1.0.0",
+  "description": "认真记录点技术上的思考和经验",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guimeisang/Diary.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guimeisang/Diary/issues"
+  },
+  "homepage": "https://github.com/guimeisang/Diary#readme",
+  "dependencies": {
+    "mobx": "^6.3.2",
+    "mobx-react": "^7.2.0",
+    "react": "^17.0.2"
+  }
+}
