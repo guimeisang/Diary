@@ -24,5 +24,7 @@
 2. vue 中如何修改props
 3. vuex 中如何挂在命名空间
 4. vue router 动态路由如何添加
+5. directives 写法
+5. 指令过滤的写法 
 
 说基础不是特别好...
