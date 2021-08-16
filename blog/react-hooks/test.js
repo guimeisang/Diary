@@ -15,7 +15,7 @@ function useState(initialState) {
       memoizedState: initialState
       next: null,
       queue: {
-        pending: null
+        pending: null // 环状列表
       }
     }
     if(!fiber.memoizedState) {
@@ -29,12 +29,41 @@ function useState(initialState) {
     workInProgressHook = workInProgressHook.next
   } 
 
-  // todo
+  let baseState = hook.memoizedState
 
+  if(hook.queue.pending) {
+    let firstUpdate = hook.queue.pending.next;
+    do {
+      const action = firstUpdate.action;
+      baseState = action(baseState)
+      firstUpdate = firstUpdate.next
+    } while (firstUpdate !== hook.queue.pending.next)
+
+    hook.queue.pending = null
+  }
+
+  hook.memoizedState = baseState;
+  return [baseState, dispatchAction.bind(null, hook.queue)]
 }
 
 function dispatchAction(queue, action) {
+  // update 是环状链表，因为要支持优先级的概念
+  const update = {
+    action,
+    next: null
+  }
 
+  if(queue.pending === null) {
+    // u0 -> u0 -> u0
+    update.next = update
+  } else {
+    // u1 -> u0 -> u1
+    update.next = queue.pending.next;
+    queue.pending.next = update;
+  }
+  queue.pending = update
+
+  schedule() // 重新渲染组件
 }
 
 function schedule() {
@@ -46,6 +75,9 @@ function schedule() {
 
 function App() {
   const [num, updateNum] = useState(0)
+
+  console.log('isMount?: ', isMount)
+  console.log('num: ', num)
 
   return {
     onClick() {
