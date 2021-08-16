@@ -1,4 +1,20 @@
-参考： https://zhuanlan.zhihu.com/p/92211533
+# 第一部分
+
+useMome和useCallback 实现代码几乎一模一样
+只是mome是将函数执行返回的值保存，而callback是将函数保存
+useRef 的实现也很简单，并且返回是 {current: value} 的对象
+useState和useReducer 一样，只是reducer会有默认的reduce函数
+看源码很有意思！！！
+
+useLayoutEffect 和 useEffect 原理差不多，只是执行的时机不一样
+useLayoutEffect 是在dom渲染完之后，同步执行
+useEffect 是在dom渲染完之后，异步执行
+
+## 参考：https://www.bilibili.com/video/BV1iV411b7L1
+## 参考：https://overreacted.io/zh-hans/algebraic-effects-for-the-rest-of-us/
+
+# 第二部分
+## 参考： https://zhuanlan.zhihu.com/p/92211533
 
 1.1 React 组件：
 1. UI = F(DATA); 其中F需要负责对输入的数据进行加工，并对数据变更做出响应
